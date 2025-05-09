@@ -1,0 +1,96 @@
+(self["webpackChunktech_gallery"] = self["webpackChunktech_gallery"] || []).push([["__federation_expose_App"], {
+"./src/gallery/GalleryScreen.tsx": 
+/*!***************************************!*\
+  !*** ./src/gallery/GalleryScreen.tsx ***!
+  \***************************************/
+(function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(/*! @swc/helpers/_/_interop_require_default */ "./node_modules/.pnpm/@swc+helpers@0.5.17/node_modules/@swc/helpers/cjs/_interop_require_default.cjs");
+var _jsxruntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/jsx-runtime.js");
+var _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react"));
+var _reactnative = __webpack_require__(/*! react-native */ "webpack/sharing/consume/default/react-native/react-native");
+var PhotoGallery = ()=>{
+    var PHOTOS = Array.from({
+        length: 24
+    }).map((_, i)=>`https://unsplash.it/300/300/?random&__id=tech-gallery${i}`);
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.ScrollView, {
+        children: PHOTOS.map((uri)=>/*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
+                style: styles.item,
+                children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Image, {
+                    source: {
+                        uri
+                    },
+                    style: styles.photo,
+                    accessibilityIgnoresInvertColors: true
+                })
+            }, uri))
+    });
+};
+function GalleryScreen() {
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
+        style: styles.content,
+        children: /*#__PURE__*/ (0, _jsxruntime.jsx)(PhotoGallery, {})
+    });
+}
+var styles = _reactnative.StyleSheet.create({
+    content: {
+        flex: 1,
+        backgroundColor: '#fff'
+    },
+    item: {
+        padding: 10,
+        borderBottomWidth: 1,
+        borderBottomColor: '#ccc'
+    },
+    photo: {
+        width: '100%',
+        height: 300
+    }
+});
+var _default = GalleryScreen;
+
+
+}),
+"./src/navigation/MainNavigator.tsx": 
+/*!******************************************!*\
+  !*** ./src/navigation/MainNavigator.tsx ***!
+  \******************************************/
+(function (__unused_webpack_module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(/*! @swc/helpers/_/_interop_require_default */ "./node_modules/.pnpm/@swc+helpers@0.5.17/node_modules/@swc/helpers/cjs/_interop_require_default.cjs");
+var _jsxruntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/jsx-runtime.js");
+var _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react"));
+var _native = __webpack_require__(/*! @react-navigation/native */ "webpack/sharing/consume/default/@react-navigation/native/@react-navigation/native");
+var _nativestack = __webpack_require__(/*! @react-navigation/native-stack */ "webpack/sharing/consume/default/@react-navigation/native-stack/@react-navigation/native-stack");
+var _GalleryScreen = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! ../gallery/GalleryScreen */ "./src/gallery/GalleryScreen.tsx"));
+var MainStackNavigator = (0, _nativestack.createNativeStackNavigator)({
+    screens: {
+        Gallery: _GalleryScreen.default
+    }
+});
+var AppNavigator = (0, _native.createStaticNavigation)(MainStackNavigator);
+var MainNavigator = ()=>{
+    return /*#__PURE__*/ (0, _jsxruntime.jsx)(AppNavigator, {});
+};
+var _default = MainNavigator;
+
+
+}),
+
+}]);//# sourceMappingURL=__federation_expose_App.chunk.bundle.map?platform=ios
