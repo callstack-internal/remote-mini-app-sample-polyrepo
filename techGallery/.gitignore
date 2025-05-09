@@ -4,7 +4,7 @@
 
 # Xcode
 #
-build/
+# build/ I want to updaload this so I can load it from a host superapp
 *.pbxuser
 !default.pbxuser
 *.mode1v3

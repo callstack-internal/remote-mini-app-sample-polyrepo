@@ -1,4 +1,5 @@
 import React from 'react';
+import {createStaticNavigation} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import GalleryScreen from '../gallery/GalleryScreen';
 
@@ -6,17 +7,15 @@ export type MainStackParamList = {
   Gallery: undefined;
 };
 
-const Main = createNativeStackNavigator<MainStackParamList>();
+const MainStackNavigator = createNativeStackNavigator({
+  screens: {
+    Gallery: GalleryScreen,
+  },
+});
+const AppNavigator = createStaticNavigation(MainStackNavigator);
 
 const MainNavigator = () => {
-  return (
-    <Main.Navigator
-      screenOptions={{
-        headerShown: false,
-      }}>
-      <Main.Screen name="Gallery" component={GalleryScreen} />
-    </Main.Navigator>
-  );
+  return <AppNavigator />;
 };
 
 export default MainNavigator;

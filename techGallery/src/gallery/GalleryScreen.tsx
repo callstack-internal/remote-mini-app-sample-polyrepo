@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, View, StyleSheet} from 'react-native';
+import {Image, View, StyleSheet, Text, ScrollView} from 'react-native';
 
 const PhotoGallery = () => {
   const PHOTOS = Array.from({length: 24}).map(
@@ -7,7 +7,7 @@ const PhotoGallery = () => {
   );
 
   return (
-    <>
+    <ScrollView>
       {PHOTOS.map((uri: string) => (
         <View key={uri} style={styles.item}>
           <Image
@@ -17,7 +17,7 @@ const PhotoGallery = () => {
           />
         </View>
       ))}
-    </>
+    </ScrollView>
   );
 };
 
