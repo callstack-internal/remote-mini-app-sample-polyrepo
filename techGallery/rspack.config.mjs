@@ -1,5 +1,5 @@
 import path from 'node:path';
-import {fileURLToPath} from 'node:url';
+import { fileURLToPath } from 'node:url';
 import * as Repack from '@callstack/repack';
 import rspack from '@rspack/core';
 import getSharedDependencies from './sharedDeps.js';
@@ -17,7 +17,7 @@ const STANDALONE = Boolean(process.env.STANDALONE);
  */
 
 export default env => {
-  const {mode} = env;
+  const { mode } = env;
 
   return {
     mode,
@@ -32,7 +32,7 @@ export default env => {
     module: {
       rules: [
         ...Repack.getJsTransformRules(),
-        ...Repack.getAssetTransformRules({inline: true}),
+        ...Repack.getAssetTransformRules({ inline: !STANDALONE }),
       ],
     },
     plugins: [
@@ -41,10 +41,10 @@ export default env => {
         name: 'techGal',
         filename: 'techGal.container.js.bundle',
         dts: false,
-        exposes: {
-          './App': './src/navigation/MainNavigator',
-        },
-        shared: getSharedDependencies({eager: STANDALONE}),
+        exposes:
+          STANDALONE
+            ? undefined : { './App': './src/gallery/GalleryScreen' },
+        shared: getSharedDependencies({ eager: STANDALONE }),
       }),
       // silence missing @react-native-masked-view optionally required by @react-navigation/elements
       new rspack.IgnorePlugin({

@@ -21,17 +21,23 @@ var PhotoGallery = ()=>{
     var PHOTOS = Array.from({
         length: 24
     }).map((_, i)=>`https://unsplash.it/300/300/?random&__id=tech-gallery${i}`);
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.ScrollView, {
-        children: PHOTOS.map((uri)=>/*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
-                style: styles.item,
-                children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Image, {
-                    source: {
-                        uri
-                    },
-                    style: styles.photo,
-                    accessibilityIgnoresInvertColors: true
-                })
-            }, uri))
+    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.ScrollView, {
+        children: [
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                style: styles.title,
+                children: "Cool pictures!"
+            }),
+            PHOTOS.map((uri)=>/*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
+                    style: styles.item,
+                    children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Image, {
+                        source: {
+                            uri
+                        },
+                        style: styles.photo,
+                        accessibilityIgnoresInvertColors: true
+                    })
+                }, uri))
+        ]
     });
 };
 function GalleryScreen() {
@@ -45,6 +51,12 @@ var styles = _reactnative.StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff'
     },
+    title: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        marginTop: 20
+    },
     item: {
         padding: 10,
         borderBottomWidth: 1,
@@ -56,39 +68,6 @@ var styles = _reactnative.StyleSheet.create({
     }
 });
 var _default = GalleryScreen;
-
-
-}),
-"./src/navigation/MainNavigator.tsx": 
-/*!******************************************!*\
-  !*** ./src/navigation/MainNavigator.tsx ***!
-  \******************************************/
-(function (__unused_webpack_module, exports, __webpack_require__) {
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-Object.defineProperty(exports, "default", ({
-    enumerable: true,
-    get: function() {
-        return _default;
-    }
-}));
-var _interop_require_default = __webpack_require__(/*! @swc/helpers/_/_interop_require_default */ "./node_modules/.pnpm/@swc+helpers@0.5.17/node_modules/@swc/helpers/cjs/_interop_require_default.cjs");
-var _jsxruntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/.pnpm/react@19.0.0/node_modules/react/jsx-runtime.js");
-var _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react"));
-var _native = __webpack_require__(/*! @react-navigation/native */ "webpack/sharing/consume/default/@react-navigation/native/@react-navigation/native");
-var _nativestack = __webpack_require__(/*! @react-navigation/native-stack */ "webpack/sharing/consume/default/@react-navigation/native-stack/@react-navigation/native-stack");
-var _GalleryScreen = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! ../gallery/GalleryScreen */ "./src/gallery/GalleryScreen.tsx"));
-var MainStackNavigator = (0, _nativestack.createNativeStackNavigator)({
-    screens: {
-        Gallery: _GalleryScreen.default
-    }
-});
-var AppNavigator = (0, _native.createStaticNavigation)(MainStackNavigator);
-var MainNavigator = ()=>{
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(AppNavigator, {});
-};
-var _default = MainNavigator;
 
 
 }),

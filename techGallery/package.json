@@ -6,8 +6,8 @@
     "android": "react-native run-android --no-packager",
     "ios": "react-native run-ios --no-packager",
     "lint": "eslint .",
-    "start": "STANDALONE=0 react-native start --port 9004",
-    "start:standalone": "STANDALONE=1 react-native start --port 8081",
+    "start": "react-native start --port 9005",
+    "start:standalone": "STANDALONE=1 react-native start --port 8082",
     "pods": "(cd ios && bundle install && bundle exec pod install)",
     "pods:update": "(cd ios && bundle exec pod update)",
     "bundle": "pnpm bundle:ios && pnpm bundle:android",
@@ -51,5 +51,6 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a"
 }

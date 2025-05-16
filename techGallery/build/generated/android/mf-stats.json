@@ -37,7 +37,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-133a12.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-7f9562.chunk.bundle"
           ]
         },
         "css": {
@@ -45,7 +45,9 @@
           "sync": []
         }
       },
-      "usedIn": []
+      "usedIn": [
+        "./App"
+      ]
     },
     {
       "singleton": true,
@@ -83,7 +85,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_pnpm_react-navigation_native_7_0_14_react-native_0_78_2__babel_core_7_27-7cd1cc.chunk.bundle"
+            "vendors-node_modules_pnpm_react-navigation_native_7_0_14_react-native_0_78_2__babel_core_7_27-b4e83c.chunk.bundle"
           ]
         },
         "css": {
@@ -91,9 +93,7 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./App"
-      ]
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -107,7 +107,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_pnpm_react-navigation_native-stack_7_2_0__react-navigation_native_7_0_14-4dd417.chunk.bundle"
+            "vendors-node_modules_pnpm_react-navigation_native-stack_7_2_0__react-navigation_native_7_0_14-a2d9b7.chunk.bundle"
           ]
         },
         "css": {
@@ -115,9 +115,7 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./App"
-      ]
+      "usedIn": []
     },
     {
       "id": "techGal:@react-native/virtualized-lists",
@@ -128,7 +126,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_pnpm_react-native_virtualized-lists_0_78_2__types_react_19_1_3_react-nat-a43787.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_virtualized-lists_0_78_2__types_react_19_1_3_react-nat-9abe94.chunk.bundle"
           ]
         },
         "css": {
@@ -185,51 +183,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-419824.chunk.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^5.4.0",
-      "shareScope": "default",
-      "eager": false,
-      "name": "react-native-safe-area-context",
-      "version": "5.4.0",
-      "id": "techGal:react-native-safe-area-context",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "vendors-node_modules_pnpm_react-native-safe-area-context_5_4_0_react-native_0_78_2__babel_cor-e372b1.chunk.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^4.10.0",
-      "shareScope": "default",
-      "eager": false,
-      "name": "react-native-screens",
-      "version": "4.10.0",
-      "id": "techGal:react-native-screens",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "vendors-node_modules_pnpm_react-native-screens_4_10_0_react-native_0_78_2__babel_core_7_27_1_-27159e.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-2f7661.chunk.bundle"
           ]
         },
         "css": {
@@ -267,7 +221,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__babel_core-95ca8f.chunk.bundle"
+            "node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__babel_core-213bba.chunk.bundle"
           ]
         },
         "css": {
@@ -287,7 +241,7 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-9558b1.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-259418.chunk.bundle"
           ]
         },
         "css": {
@@ -307,7 +261,7 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-982923.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-da50b9.chunk.bundle"
           ]
         },
         "css": {
@@ -327,7 +281,7 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-6b4963.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-932253.chunk.bundle"
           ]
         },
         "css": {
@@ -347,9 +301,9 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "node_modules_pnpm_swc_helpers_0_5_17_node_modules_swc_helpers_cjs__class_private_field_loose_-b296d90.chunk.bundle",
-            "node_modules_pnpm_swc_helpers_0_5_17_node_modules_swc_helpers_cjs__class_private_field_loose_-b296d91.chunk.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-9558b1.chunk.bundle"
+            "node_modules_pnpm_swc_helpers_0_5_17_node_modules_swc_helpers_cjs__class_private_field_loose_-f987090.chunk.bundle",
+            "node_modules_pnpm_swc_helpers_0_5_17_node_modules_swc_helpers_cjs__class_private_field_loose_-f987091.chunk.bundle",
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-259418.chunk.bundle"
           ]
         },
         "css": {
@@ -369,9 +323,9 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-cdebd20.chunk.bundle",
-            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-cdebd21.chunk.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-9558b1.chunk.bundle"
+            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-515cb10.chunk.bundle",
+            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-515cb11.chunk.bundle",
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-259418.chunk.bundle"
           ]
         },
         "css": {
@@ -391,8 +345,8 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-51384f.chunk.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-9558b1.chunk.bundle"
+            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-912e37.chunk.bundle",
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-259418.chunk.bundle"
           ]
         },
         "css": {
@@ -412,10 +366,54 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-51384f.chunk.bundle",
-            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-b864870.chunk.bundle",
-            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-b864871.chunk.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-9f9798.chunk.bundle"
+            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-3cf2f50.chunk.bundle",
+            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-3cf2f51.chunk.bundle",
+            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-912e37.chunk.bundle",
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-40d30d.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.4.0",
+      "shareScope": "default",
+      "eager": false,
+      "name": "react-native-safe-area-context",
+      "version": "5.4.0",
+      "id": "techGal:react-native-safe-area-context",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-native-safe-area-context_5_4_0_react-native_0_78_2__babel_cor-8644aa.chunk.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^4.10.0",
+      "shareScope": "default",
+      "eager": false,
+      "name": "react-native-screens",
+      "version": "4.10.0",
+      "id": "techGal:react-native-screens",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "vendors-node_modules_pnpm_react-native-screens_4_10_0_react-native_0_78_2__babel_core_7_27_1_-c08964.chunk.bundle"
           ]
         },
         "css": {
@@ -435,7 +433,7 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-aa6b6a.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-ecce69.chunk.bundle"
           ]
         },
         "css": {
@@ -455,7 +453,7 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-9f9798.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-40d30d.chunk.bundle"
           ]
         },
         "css": {
@@ -475,7 +473,7 @@
           "async": [],
           "sync": [
             "index.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-d4f475.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-109640.chunk.bundle"
           ]
         },
         "css": {
@@ -493,11 +491,10 @@
       "id": "techGal:App",
       "name": "App",
       "requires": [
-        "react",
-        "@react-navigation/native",
-        "@react-navigation/native-stack"
+        "react-native",
+        "react"
       ],
-      "file": "src/navigation/MainNavigator",
+      "file": "src/gallery/GalleryScreen",
       "assets": {
         "js": {
           "sync": [
@@ -505,11 +502,10 @@
             "__federation_expose_App.chunk.bundle"
           ],
           "async": [
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-4dcdfc.chunk.bundle",
-            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-b2b458.chunk.bundle",
-            "node_modules_pnpm_swc_helpers_0_5_17_node_modules_swc_helpers_cjs__class_private_field_loose_-658055.chunk.bundle",
-            "node_modules_pnpm_swc_helpers_0_5_17_node_modules_swc_helpers_cjs__class_private_field_loose_-65961a.chunk.bundle",
-            "node_modules_pnpm_invariant_2_2_4_node_modules_invariant_browser_js-node_modules_pnpm_react-n-5e6f751.chunk.bundle"
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-730558.chunk.bundle",
+            "vendors-node_modules_pnpm_react-native_0_78_2__babel_core_7_27_1__babel_preset-env_7_27_2__ba-98f9d9.chunk.bundle",
+            "node_modules_pnpm_swc_helpers_0_5_17_node_modules_swc_helpers_cjs__class_private_field_loose_-22ccfa.chunk.bundle",
+            "node_modules_pnpm_swc_helpers_0_5_17_node_modules_swc_helpers_cjs__class_private_field_loose_-65961a.chunk.bundle"
           ]
         },
         "css": {
