@@ -2,6 +2,9 @@
 
 Este proyecto demuestra cómo implementar una super app utilizando una arquitectura polyrepo con React Native. El proyecto muestra cómo las mini apps pueden ser alojadas tanto dentro del monorepo principal como de forma remota.
 
+![Simulator Screen Recording - iPhone 16 Pro - 2025-05-16 at 15 51 40](https://github.com/user-attachments/assets/46fdd09e-2807-47ec-90db-2a62cdd64dfa)
+
+
 ## Descripción General
 
 El proyecto está estructurado de manera que simula un entorno polyrepo real, donde:
